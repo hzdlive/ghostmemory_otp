@@ -16,14 +16,6 @@ OTP小程序
 - 云端备份与恢复secret
 - 倒计时5秒红色闪烁提醒
 
-#### 部署教程
-
-1. 下载本项目或者``` git clone https://gitee.com/ghostmemory/otp.git ```
-2. 将项目导入微信小程序开发工具 
-3. 修改```/project.config.json``` 中的 ```appid: '你申请的小程序appid' ```
-4. 创建云数据库```otp、user、devicelog```,
-5. 上传云函数user
-
 #### 使用说明
 
 使用微信扫码体验
@@ -31,6 +23,13 @@ OTP小程序
 ![小程序码](https://images.gitee.com/uploads/images/2020/0824/162015_16d7b5d8_21964.jpeg "gh_508ca98f3bfb_430.jpg")
 
 
+#### 部署教程
+
+1. 下载本项目或者``` git clone https://gitee.com/ghostmemory/otp.git ```
+2. 将项目导入微信小程序开发工具 
+3. 修改```/project.config.json``` 中的 ```appid: '你申请的小程序appid' ```
+4. 创建云数据库```otp、user、devicelog```,
+5. 上传云函数user
 
 #### 参与贡献
 
