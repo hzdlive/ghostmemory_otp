@@ -4,20 +4,24 @@
 OTP小程序
 
 #### 软件架构
-软件架构说明
+基于小程序云开发实现的OTP动态验证码
 
 
-#### 安装教程
+#### 部署教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 下载本项目或者``` git clone https://gitee.com/ghostmemory/otp ```
+2. 将项目导入微信小程序开发工具 
+3. 修改```/project.config.json``` 中的 ```appid: '你申请的小程序appid' ```
+4. 创建云数据库```otp、user、devicelog```,
+5. 上传云函数user
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+使用微信扫码体验
+
+![小程序码](https://images.gitee.com/uploads/images/2020/0824/162015_16d7b5d8_21964.jpeg "gh_508ca98f3bfb_430.jpg")
+
+
 
 #### 参与贡献
 
@@ -26,12 +30,6 @@ OTP小程序
 3.  提交代码
 4.  新建 Pull Request
 
+## LICENSE
 
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[MIT](https://gitee.com/ghostmemory/otp/blob/master/LICENSE)
