@@ -1,10 +1,12 @@
 # OTP
 
 #### 介绍
-OTP小程序
+
+基于时间戳算法（TOTP）的动态验证码微信小程序，兼容Google Authenticator二步验证。
 
 #### 软件架构
-基于小程序云开发实现的OTP动态验证码，采用MinaOTP二次开发，支持Google Authenticator。
+
+基于MinaOTP二次开发，使用小程序云开发实现云端数据备份。
 
 
 #### 软件功能
