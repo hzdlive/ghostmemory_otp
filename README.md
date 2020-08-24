@@ -9,7 +9,7 @@ OTP小程序
 
 #### 部署教程
 
-1. 下载本项目或者``` git clone https://gitee.com/ghostmemory/otp ```
+1. 下载本项目或者``` git clone https://gitee.com/ghostmemory/otp.git ```
 2. 将项目导入微信小程序开发工具 
 3. 修改```/project.config.json``` 中的 ```appid: '你申请的小程序appid' ```
 4. 创建云数据库```otp、user、devicelog```,
