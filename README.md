@@ -18,11 +18,15 @@
 - 云端备份与恢复secret
 - 倒计时5秒红色闪烁提醒
 
+#### 功能预览
+
+![功能预览](https://images.gitee.com/uploads/images/2020/0825/163947_84f07ef0_21964.png "功能预览.png")
+
 #### 使用说明
 
-使用微信扫码体验
+请使用微信扫码体验
 
-![小程序码](https://images.gitee.com/uploads/images/2020/0824/162015_16d7b5d8_21964.jpeg "gh_508ca98f3bfb_430.jpg")
+![小程序码](https://images.gitee.com/uploads/images/2020/0824/162015_16d7b5d8_21964.jpeg "小程序码.jpg")
 
 
 #### 部署教程
