@@ -1,0 +1,84 @@
+/* pages/info/info.wxss */
+page {
+  background: #0d0d0d;
+}
+.mine{
+  z-index: 0;
+}
+.top-bg{
+  z-index: -1;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 550rpx;
+  background: #0d0d0d;
+  background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #0d0d0d 80%);
+  background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #0d0d0d 80%);
+  background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #0d0d0d 80%);
+  background-image: radial-gradient(top, circle cover, #3c3b52 0%, #0d0d0d 80%);
+}
+.user-bg {
+  height: 550rpx;
+  display: flex;
+  justify-content: center;
+  padding-top: 40rpx;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.userinfo-avatar {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20rpx auto;
+  justify-content: center;
+}
+
+.userinfo-nickname {
+  color: #ccc;
+}
+
+.user-bg text {
+  opacity: 0.8;
+}
+
+.user-bg image {
+  width: 400rpx;
+  height: 200rpx;
+}
+.btns{
+  z-index: 10;
+  position: relative;
+}
+ .btn{
+   z-index: 10;
+   margin: 1rem;
+   border-radius: 100px;
+   background: #1a1a1a;
+   color: #ff9c10;
+   border: 2px solid #222222;
+ }
+ .btn[disabled]:not([type]){
+  background: #1a1a1a;
+  color: #ff9c10;
+ }
+ .footer{
+   position: absolute;
+   bottom: 20px;
+   margin-top: 10rem;
+   font-size: 12px;
+   text-align: center;
+   width: 100%;
+   color: #666;
+ }

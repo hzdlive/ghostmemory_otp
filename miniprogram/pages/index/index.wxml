@@ -1,0 +1,33 @@
+<!--pages/index/index.wxml-->
+<block>
+  <view class="outer-bar">
+    <view class="inner-bar" animation="{{animationData}}"></view>
+  </view>
+  <scroll-view class="scroll-view" scroll-y enable-back-to-top>
+    <view class="token-wrp">
+      <block wx:for="{{tokens}}" wx:for-item="token" wx:for-index="t_index" wx:key="index">
+        <view class="token-box" id="{{t_index}}" bindtap="tokenOperation">
+          <view class="token token-left">
+            <view class="issue">
+              <text wx:if="{{'' == token.issuer}}"> - </text>
+              <text wx:else>{{token.issuer}}</text>
+            </view>
+            <view class="remark">
+              <text wx:if="{{'' == token.remark}}">点击设置备注信息</text>
+              <text wx:else>{{token.remark}}</text>
+            </view>
+          </view>
+          <view class="token token-right" >
+            <view class="digit {{warn?'warn':''}}">
+              <text wx:for="{{token.secret}}" wx:for-item="secret" wx:for-index="secret-index" wx:key="index">{{secret}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+    <view class="addCard" bindtap="showActionSheet">
+      <text class="addIcon"> + </text>
+      <text class="addText">添加</text>
+    </view>
+  </scroll-view>
+</block>

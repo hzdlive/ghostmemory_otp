@@ -1,0 +1,123 @@
+page{
+  width: 100%;
+}
+.outer-bar {
+  height: 2px;
+  background: #222222;
+}
+.inner-bar {
+  height: 100%;
+  background: #ff9c10;
+  width: 0;
+}
+/* pages/token/token.wxss */
+page {
+  background: #0d0d0d;
+}
+.scroll-view {
+  height: 92vh;
+  background: #0d0d0d;
+}
+.scroll-view .ad {
+  margin-top: 20px;
+  /* -webkit-filter: grayscale(100%);filter: grayscale(100%); */
+}
+.section {
+  background: white;
+}
+.token-wrp {
+  flex-direction: column;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+.token-box {
+  flex-direction: row;
+  height: 15vh;
+  border-bottom: 2px solid #222222;
+}
+.token-box:last-child {
+  border-bottom: 0;
+}
+.token {
+  width: 46vw;
+  float: left;
+}
+.token-left {
+  position: relative;
+  left: 4vw;
+  top: 4vh;
+  overflow-x: scroll;
+}
+.issue {
+  font-size: 1.4rem;
+}
+.remark {
+  font-size: .8rem;
+  color: #929292;
+}
+.token-right {
+  float: right;
+  position: relative;
+  right: 4vw;
+  top: 3vh;
+}
+.digit {
+  font-size: 2.6rem;
+  text-align: right;
+}
+.digit text {
+  width: 1ch;
+  display: inline-block;
+  text-align: center;
+}
+.warn {
+  color:red;
+}
+  
+.addCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10rpx;
+  border:  5rpx #fff dashed;
+  padding: 18rpx;
+  margin: 16rpx 20rpx;
+  opacity: 0.8;
+}
+.addIcon{
+  padding-right: 0.3rem;
+  color: #929292;
+}
+.addText{
+  color: #929292;
+}
+
+
+.btns {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.btn{
+  border-radius: 0;
+  background: #1a1a1a;
+  color: #ff9c10;
+  height: 8vh;
+  width: 50%;
+  padding-top: .4vh;
+  border-top: 2px solid #222222;
+  float: left;
+  border-right: 2px solid #222222;
+}
+.none-tip {
+  text-align: center;
+  margin-top: 20vh;
+  color: #222222;
+  font-size: 1.6rem;
+  letter-spacing: .5rem;
+}
+/* .none-tip .ad {
+  margin-top: 20px;
+} */

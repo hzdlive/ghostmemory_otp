@@ -1,0 +1,19 @@
+<!--pages/mine/mine.wxml-->
+<view class='mine' data-weui-theme="dark">
+  <view class="top-bg"></view>
+  <view class="user-bg">
+    <view class="userinfo" bindtap="goAuth">
+      <open-data type="userAvatarUrl" class="userinfo-avatar"></open-data>
+      <open-data type="userNickName" class="userinfo-nickname"></open-data>
+    </view>
+  </view>
+  <view class="btns">
+      <button class="btn" loading="{{uploading}}" disabled="{{uploading}}" bindtap="uploadData">数据备份</button>
+      <button class="btn" loading="{{loading}}" disabled="{{loading}}" bindtap="restoreData">数据恢复</button>
+  </view>
+  <view class="footer">
+    <navigator url="/pages/info/info" hover-class="none">
+      <view>Copyright © 2020 DD & MinaOTP </view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/edit/edit",
+    "pages/form/form",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundColor": "#0d0d0d",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0d0d0d",
+    "navigationBarTitleText": "动态验证码",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+    "backgroundColor":"#0d0d0d",
+    "color":"#666",
+    "selectedColor": "#ff9c10",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "验证码",
+        "iconPath": "images/indexoff.png",
+        "selectedIconPath": "images/index.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/mineoff.png",
+        "selectedIconPath": "images/mine.png",
+        "dot": true
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style":"v2"
+}

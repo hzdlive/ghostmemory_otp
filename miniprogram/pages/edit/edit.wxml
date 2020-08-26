@@ -1,0 +1,18 @@
+<!--pages/edit/edit.wxml-->
+<form bindsubmit="keySubmit">
+  <view class="input-box">
+    <text>Service</text>
+    <input name="issuer" placeholder="服务名称" placeholder-style="color: #666; font-size: 1rem;" value="{{issuer}}"/>
+  </view>
+  <view class="input-box">
+    <text>Account</text>
+    <input name="remark" placeholder="帐号备注" placeholder-style="color: #666; font-size: 1rem;" value="{{remark}}"/>
+  </view>
+  <!-- <view class="input-box">
+    <text>KEY</text>
+    <input name="remark" disabled="true" placeholder="KEY" style="color:#666" placeholder-style="color: #666; font-size: 1rem;" value="{{secret}}"/>
+  </view> -->
+  <view class="add-btn">
+    <button form-type="submit">提交</button>
+  </view>
+</form>

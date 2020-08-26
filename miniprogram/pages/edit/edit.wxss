@@ -1,0 +1,42 @@
+/* pages/edit/edit.wxss */
+page {
+  background: #0d0d0d;
+}
+.input-box {
+  margin-top: 1rem;
+  line-height: 2rem;
+  background: #1a1a1a;
+  border-top:2px solid #222222;
+  border-bottom:2px solid #222222;
+  padding-left:4vw;
+  padding-right:4vw;
+  padding-top:.6rem;
+  padding-bottom:1.2rem;
+}
+.input-box text {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+.input-box input {
+  color: #ffffff;
+  font-size:1rem;
+  border-bottom: 2px solid #222222;
+  margin-top: .6rem;
+}
+.add-btn {
+  margin-top: 1rem;
+}
+.add-btn button {
+  border-radius: 100px;
+  background: #1a1a1a;
+  color: #ff9c10;
+  border: 2px solid #222222;
+}
+.edit-ad {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+.edit-ad ad {
+  margin: 0 auto;
+}

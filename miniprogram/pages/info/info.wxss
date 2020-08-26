@@ -1,0 +1,15 @@
+/* pages/info/info.wxss */
+page {
+  background: #0d0d0d;
+  color: #ccc;
+}
+.title{
+  font-size: 14px;
+  padding: 10px;
+}
+.license{
+  font-size: 13px;
+  padding: 10px;
+  word-break: normal;
+  text-align: left;
+}
