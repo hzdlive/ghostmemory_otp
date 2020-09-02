@@ -20,9 +20,10 @@
 
 #### 使用说明
 
-请使用微信扫码体验
+请使用微信扫码**打开小程序** ，点击添加，扫描二维码添加测试数据。
 
-![小程序码](https://images.gitee.com/uploads/images/2020/0824/162015_16d7b5d8_21964.jpeg "小程序码.jpg")
+![小程序码](https://images.gitee.com/uploads/images/2020/0824/162015_16d7b5d8_21964.jpeg "小程序码.jpg") 
+![测试二维码](https://images.gitee.com/uploads/images/2020/0902/093130_a25d3829_21964.png "b57b6e45240cdf492400d07a0007abe1.png")
 
 
 #### 功能预览
@@ -46,6 +47,7 @@
 5. 上传云函数user
 
 ![部署云函数](https://images.gitee.com/uploads/images/2020/0826/095634_ec09226a_21964.png "部署.png")
+
 
 #### 参与贡献
 
