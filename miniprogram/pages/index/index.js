@@ -78,16 +78,21 @@ Page({
    */
   tokenOperation: function (e) {
     console.log(e.currentTarget.id)
+
     wx.showActionSheet({
-      itemList: ["编辑", "删除"],
+      itemList: ["复制","编辑", "删除"],
       itemColor: '#000000',
       success: function(res) {
-        if (0 == res.tapIndex) {
+        if(0 == res.tapIndex){
+          wx.setClipboardData({  data: digits[e.currentTarget.id].secret  } );
+
+        }
+        else if (1 == res.tapIndex) {
           console.log("编辑" + e.currentTarget.id)
           wx.navigateTo({
             url: '../edit/edit?token_id='+e.currentTarget.id
           })
-        } else if (1 == res.tapIndex) {
+        } else if (2 == res.tapIndex) {
           console.log("删除" + e.currentTarget.id)
           util.removeToken(e.currentTarget.id)
         }
